@@ -1,0 +1,62 @@
+Q1:- Create the Example of logical operators?
+ Ans = The example of logical operators are:-
+        # Logical AND
+        
+         let a= 10;
+         let b= 20;
+         let c = 30;
+
+         let result = a<b && a<c;
+         console.log("is a the smallest number = "+result) 
+
+        # Logical OR
+         let x= 5;
+         let y= 4;
+
+         console.log(x == 2 || y == 4);
+
+         Output:- true
+
+        # Logical NOT 
+         let x= 3;
+         let y= 2;
+         let result = !(X > y)
+         console.log("Is x > y "+result)       
+
+Q2:- Difference between “ == “ and “ === “ operators.
+ Ans:- 
+
+       >> "==" (Double Equals): Checks if the values are equal after converting them to the same type if needed (type coercion).
+              Example: 5 == "5" is true.
+
+       >> "===" (Triple Equals): Checks if the values are equal and of the same type. No type conversion is performed.
+              Example: 5 === "5" is false.
+
+Q3:- How many operators do we have in JS ?
+  Ans:-  Operators In JavaScript are as follow:-
+
+       (i) Arithmetic Operators: Perform mathematical operations (+, -, *, /, %).
+
+       (ii) Assignment Operators: Assign values and perform operations simultaneously (=, +=, -=, *=, /=, %=).
+
+       (iii) Comparison Operators: Compare values (==, ===, !=, !==, >, <, >=, <=).
+
+       (iv) Logical Operators: Perform logical operations (&&, ||, !).
+
+       (v) Unary Operators: Operate on a single operand (+, -, ++, --, typeof, !).
+
+       (vi) Bitwise Operators: Perform bitwise operations (&, |, ^, ~, <<, >>, >>>).
+
+       (vii) Conditional Operator: A shorthand for an if-else statement ( ? :).
+
+       (viii) Miscellaneous Operators: Comma (,), delete, in, instanceof.
+
+Q4:- What is use of parseInt in js?
+  Ans:- parseInt in JavaScript converts a text (string) with numbers into an integer for mathematical use. It's handy when transforming text-based numbers into actual numeric values for calculations in your code.
+
+
+Q5:- Take input from user and find the odd and even number ?
+ Ans:- let number = prompt("Enter a number: ");
+       
+       let result = number%2 == 0;
+       console.log("Is the number even:-"+result)
